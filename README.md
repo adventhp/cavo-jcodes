@@ -13,13 +13,13 @@ Returns all rev codes as an array of objects
 
 **getOne** 
 
-`jcodes.getOne('1000')` or `jcodes.getOne(1000)`
+`jcodes.getOne('A1')` or `jcodes.getOne(a1)`
 
 Returns a single rev code by id
 
 **getMany**
 
-`jcodes.getMany(['100', '101', '200', '205'])`
+`jcodes.getMany(['a1', 'a2', 'A3', 'a4'])`
 
 Returns an array of rev codes for each id passed.
 
