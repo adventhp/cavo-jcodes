@@ -5,15 +5,21 @@ function formatCode(code) {
     return formatted;
 }
 
-exports.getAll = function() {
+function getAll () {
     return Object.keys(CODES).map(key => CODES[ key ]);
-};
+}
 
-exports.getOne = function(id) {
+function getOne (id) {
     const code = formatCode(id);
     return CODES[ code ];
-};
+}
 
-exports.getMany = function(ids) {
-    return ids.map(exports.getOne);
+function getMany (ids) {
+    return ids.map(getOne);
+}
+
+module.exports = {
+    getAll,
+    getOne,
+    getMany
 };
