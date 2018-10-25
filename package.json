@@ -1,5 +1,5 @@
 {
-  "name": "jcodes",
+  "name": "@adventhp/jcodes",
   "version": "1.0.0",
   "description": "JCodes",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com//adventhp/jcodes.git"
   },
-  "author": "",
+  "author": "Curtis Wingert <cwingert@adventhp.com>",
   "license": "ISC",
   "dependencies": {}
 }
