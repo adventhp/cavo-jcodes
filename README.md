@@ -29,6 +29,8 @@ This repo will serve as a list of jcodes that can be incorporated into medical b
 
 All code id's are in string format. If you pass a number, it will be converted to a string and padded with 0 until the length of the string is 4.
 
+serviceCodes.json is a more extensive list of service codes that were extracted from the sources listed in ServiceCode_sources.txt
+
 ### Contributors
 
 Please fork this repo and submit a PR for any corrections.
